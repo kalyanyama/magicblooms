@@ -45,7 +45,9 @@ const Contact = () => {
           </Button>
         </TypographyStylesProvider>
         <Image
-          src={"https://assets.puzzlefactory.com/puzzle/223/230/original.jpg"}
+          src={
+            "https://images.squarespace-cdn.com/content/v1/630508d52c14741ab0db411b/58729342-d04e-4a0d-b207-e95d51fb2d0a/Glint_2022_Headshots-192.jpg"
+          }
           h={PRIMARY_COL_HEIGHT}
           className={classes.image}
           visibleFrom="sm"

@@ -7,7 +7,9 @@ const Banner = () => {
     <Container mih={400} py="xl" my="xl">
       <SimpleGrid>
         <Image
-          src={"https://assets.puzzlefactory.com/puzzle/223/230/original.jpg"}
+          src={
+            "https://img.staticmb.com/mbcontent//images/uploads/2022/5/wedding%20stage%20decoration.jpg"
+          }
           h={300}
           className={classes.image}
         />

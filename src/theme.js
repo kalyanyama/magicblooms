@@ -12,7 +12,7 @@ import {
 import { Link } from "react-router-dom";
 
 export const theme = createTheme({
-  primaryColor: "teal",
+  primaryColor: "blue",
   fontFamily: "Poppins,  sans-serif",
   // headings: { fontFamily: "Gloock, serif" },
   defaultGradient: {
@@ -79,7 +79,7 @@ export const theme = createTheme({
     Button: Button.extend({
       defaultProps: {
         size: "xs",
-        variant: "outline",
+        variant : "default"
       },
     }),
   },

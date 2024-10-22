@@ -32,7 +32,7 @@ const Contact = () => {
   });
   return (
     <Container mih={700} id="contact">
-      <div>
+      <div> 
         <Stack maw={900}>
           <Title order={2} size="h1" fw={900}>
             Get in touch

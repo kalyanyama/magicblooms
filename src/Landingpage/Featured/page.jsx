@@ -7,9 +7,6 @@ const FeaturedList = () => {
       link: "https://images.squarespace-cdn.com/content/v1/6564afb4f0851760cfcdde58/068b4481-54ed-4afe-92d8-53d6e6e17e5f/Srinidhi-Rishi-Taj+Fishermans+Cove-0830.jpg",
     },
     {
-      link: "https://www.theweddingschool.in/wp-content/uploads/elementor/thumbs/blog-69-1-pwe9t910raphjtgnvv9931kepv3ow9gq4pf35rukc0.jpg",
-    },
-    {
       link: "https://weddingsecrets.in/wp-content/uploads/2023/09/c1109de0f58b4749cc5865e0422c5269-1.jpg",
     },
     {

@@ -20,15 +20,7 @@ import {
 } from "@mantine/core";
 
 import { useDisclosure } from "@mantine/hooks";
-import {
-  IconBook,
-  IconChartPie3,
-  IconChevronDown,
-  IconCode,
-  IconCoin,
-  IconFingerprint,
-  IconNotification,
-} from "@tabler/icons-react";
+import { IconChevronDown } from "@tabler/icons-react";
 import { siteInformation } from "../../Content/Provider";
 import classes from "./styles.module.css";
 
@@ -189,7 +181,9 @@ const Header = () => {
           </Group>
 
           <Group visibleFrom="sm">
-            <Button variant="default" component="a" href="/contact">Book a call</Button>
+            <Button variant="default" component="a" href="/contact">
+              Book a call
+            </Button>
           </Group>
 
           <Burger

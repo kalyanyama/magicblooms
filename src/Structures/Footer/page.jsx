@@ -8,12 +8,14 @@ import { siteInformation } from "../../Content/Provider";
 import classes from "./styles.module.css";
 
 const Footer = () => {
-  const date = new Date()
-  const currentYear = date.getFullYear()
+  const date = new Date();
+  const currentYear = date.getFullYear();
   return (
     <div className={classes.footer}>
       <Container className={classes.inner}>
-        <Text fz={"sm"}>@ {currentYear} {siteInformation.name}</Text>
+        <Text fz={"sm"}>
+          @ {currentYear} {siteInformation.name}
+        </Text>
         <Group
           gap={0}
           className={classes.links}
